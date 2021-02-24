@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a style="color: lightblue;" class="navbar-brand" href="index.html">Koodipaja</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="paketit.html">Paketit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tietoa.html">Tietoa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ostoskori.html">Ostoskori</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+      <div class="alert alert-success" id="success">
+        <strong>Onnistui!</strong> Tuote lisättiin ostoskoriin
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Tervetuloa!</h1>      
+          <p>Tervetuloa ostoksille koodipajaan! Me koodaamme teille ainutlaatuiset nettisivut ja teemme niistä juuri sellaiset kuin haluat!</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <div class="card" style="margin-left: 25px; margin-right: 25px;" id="box1">
+            <img src="./img/most-popular-png-1.png" style="width: 130px; height: 130px; position: absolute; right: 0px; z-index: 1;"> <img src="./img/img_90947.png" style="width:70%; position: relative; margin-left: auto; margin-right: auto;">
+            <div class="container">
+              <h2>Koko paketti</h2>
+              <p class="title">Ideaali paketti verkkokaupoille ja muihin vaativiin projekteihin.</p>
+              <p>Rakennamme teille ainutlaatuiset nettisivut sinun toiveiden mukaan kaikilla herkuilla!</p>
+              <p><button class="button" id="btn" onclick="buy();">Osta</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card" style="margin-left: 25px; margin-right: 25px;" id="box1">
+            <img src="./img/img_90947.png" style="width:70%; position: relative; margin-left: auto; margin-right: auto;">
+            <div class="container">
+              <h2>Front-end</h2>
+              <p class="title">Ideaali paketti yksinkertaisille nettisivuille, esim. blogeja varten.</p>
+              <p>Paketti sisältää vain front-end puolen, nettisivuun ei tulla toteuttamaan tietokantoja tai muita teknisiä ominaisuuksia.</p>
+              <p><button class="button" id="btn" onclick="buy();">Osta</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card" style="margin-left: 25px; margin-right: 25px;" id="box1">
+            <img src="./img/img_90947.png" style="width:70%; position: relative; margin-left: auto; margin-right: auto;">
+            <div class="container">
+              <h2>IT-tuki</h2>
+              <p class="title">Ideaali paketti nettisivujen teknisien häiriöiden korjaamiseen.</p>
+              <p>Korjaamme nettisivun tekniset häiriöt ja korjaamme kaikki ongelmat mahdollisimman pian!</p>
+              <p><button class="button" id="btn" onclick="buy();">Osta</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer>
+      <div class="footer">
+        <p>Koodipaja Oy <br> Heikintie 1 | 90250 Oulu <br> Y-tunnus 2026221-9</p>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://google.com/" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+      </div>
+    </footer>
+</body>
+</html>
