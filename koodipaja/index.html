@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
+<body onload="document.getElementById('products').style.opacity = '1'">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a style="color: lightblue;" class="navbar-brand" href="index.html">Koodipaja</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -50,7 +50,7 @@
         </div>
       </div>
       
-      <div class="row">
+      <div class="row" id="products">
         <div class="column">
           <div class="card" style="margin-left: 25px; margin-right: 25px;" id="box1">
             <img src="./img/most-popular-png-1.png" style="width: 130px; height: 130px; position: absolute; right: 0px; z-index: 1;"> <img src="./img/img_90947.png" style="width:70%; position: relative; margin-left: auto; margin-right: auto;">
@@ -89,7 +89,7 @@
       </div>
       </div>
       <footer>
-      <div class="footer">
+      <div id="footer1">
         <p>Koodipaja Oy <br> Heikintie 1 | 90250 Oulu <br> Y-tunnus 2026221-9</p>
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
         <a href="https://twitter.com/" class="fa fa-twitter"></a>

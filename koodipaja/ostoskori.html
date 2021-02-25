@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </head>
-<body>
+<body onload="document.getElementById('ostoskori').style.opacity = '1'">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a style="color: lightblue;" class="navbar-brand" href="index.html">Koodipaja</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -44,9 +44,6 @@
           </ul>
         </div>  
       </nav>
-      <div class="alert alert-success" id="success">
-        <strong>Onnistui!</strong> Tuote lisättiin ostoskoriin
-      </div>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1>Ostoskori</h1>      
@@ -54,7 +51,7 @@
         </div>
       </div>
       
-      <div class="container mt-5 p-3 rounded cart">
+      <div class="container mt-5 p-3 rounded cart" id="ostoskori">
         <div class="row no-gutters">
             <div class="col-md-8">
                 <div class="product-details mr-2">
@@ -116,7 +113,7 @@
         </script>
 
       <footer>
-      <div class="footer">
+      <div id="footer1">
         <p>Koodipaja Oy <br> Heikintie 1 | 90250 Oulu <br> Y-tunnus 2026221-9</p>
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
         <a href="https://twitter.com/" class="fa fa-twitter"></a>

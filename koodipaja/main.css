@@ -60,16 +60,6 @@ html {
     background-color: #555;
   }
 
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(6, 110, 196);
-    color: white;
-    text-align: center;
-}
-
 #footer1 {
     position: relative;
     background-color: rgb(6, 110, 196);
@@ -85,6 +75,9 @@ html {
 #table1 {
     position: relative;
     margin-top: auto;
+    opacity: 0;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
 }
 
 .fa {
@@ -242,4 +235,22 @@ html {
 #checkoutbox:hover {
   background-color: rgb(11, 97, 168);
   box-shadow: 4px 4px 12px 4px rgba(0,0,0,0.3);
+}
+
+#products {
+  opacity: 0;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+}
+
+#images {
+  opacity: 0;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+}
+
+#ostoskori {
+  opacity: 0;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
 }
